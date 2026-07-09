@@ -35,5 +35,6 @@ Practice the kind of work a CloudOps team handles in a real company:
 ## Links
 
 - GitHub Project board: https://github.com/users/Tech-Sayantan/projects/1
+- Documentation site: https://tech-sayantan.github.io/aws-operations-sprint/
 - Documentation source: `docs/`
-- GitHub Pages status: prepared, but Pages activation needs either a public repo or an account plan that supports Pages for private repositories
+- GitHub Pages status: enabled from `main` and `/docs`

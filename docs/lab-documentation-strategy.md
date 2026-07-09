@@ -34,15 +34,11 @@ For serious practice labs:
 
 ## Current Repo Status
 
-This repo already has a Pages-ready `docs/` folder.
+This repo has GitHub Pages enabled from:
 
-GitHub Pages activation is blocked while the repository is private unless the account plan supports Pages for private repositories.
-
-If the repo is made public, Pages can be enabled from:
-
-```text
-Settings -> Pages -> Build and deployment -> Source: Deploy from a branch -> main / docs
-```
+- branch: `main`
+- folder: `/docs`
+- site: https://tech-sayantan.github.io/aws-operations-sprint/
 
 ## Why This Helps
 
