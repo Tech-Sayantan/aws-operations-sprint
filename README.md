@@ -32,3 +32,7 @@ Practice the kind of work a CloudOps team handles in a real company:
 - `ansible/` - configuration and server ops automation
 - `evidence/` - change logs, screenshots, and verification notes
 
+## Links
+
+- GitHub Project board: https://github.com/users/Tech-Sayantan/projects/1
+- Documentation site: enable GitHub Pages from the `docs/` folder on `main`
