@@ -1,0 +1,76 @@
+name: AWS Ops Request
+description: Request an AWS operations change
+title: "[AWS Ops]: "
+labels:
+  - ops-request
+body:
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - Access
+        - Storage
+        - Network
+        - Compute
+        - Monitoring
+        - Audit
+        - Patching
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options:
+        - dev
+        - stage
+        - prod
+    validations:
+      required: true
+  - type: input
+    id: requester
+    attributes:
+      label: Requester
+      placeholder: team or person asking for the change
+    validations:
+      required: true
+  - type: textarea
+    id: business_reason
+    attributes:
+      label: Business reason
+      description: Explain why this change is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: affected_resources
+    attributes:
+      label: Affected resources
+      description: List buckets, roles, security groups, instances, databases, or accounts.
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk level
+      options:
+        - low
+        - medium
+        - high
+    validations:
+      required: true
+  - type: textarea
+    id: rollback
+    attributes:
+      label: Rollback plan
+      description: How will this change be reversed if something goes wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: How will CloudOps prove the change worked?
+    validations:
+      required: true
