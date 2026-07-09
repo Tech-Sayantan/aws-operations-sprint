@@ -32,9 +32,20 @@ For serious practice labs:
 - keep operational runbooks under `docs/`
 - link issues, PRs, and evidence from the site
 
+## Current Repo Status
+
+This repo already has a Pages-ready `docs/` folder.
+
+GitHub Pages activation is blocked while the repository is private unless the account plan supports Pages for private repositories.
+
+If the repo is made public, Pages can be enabled from:
+
+```text
+Settings -> Pages -> Build and deployment -> Source: Deploy from a branch -> main / docs
+```
+
 ## Why This Helps
 
 In interviews, a Pages site lets you say:
 
 "I documented the lab as an internal engineering portal, with links to tickets, workflows, runbooks, and implementation areas."
-

@@ -35,4 +35,5 @@ Practice the kind of work a CloudOps team handles in a real company:
 ## Links
 
 - GitHub Project board: https://github.com/users/Tech-Sayantan/projects/1
-- Documentation site: enable GitHub Pages from the `docs/` folder on `main`
+- Documentation source: `docs/`
+- GitHub Pages status: prepared, but Pages activation needs either a public repo or an account plan that supports Pages for private repositories
