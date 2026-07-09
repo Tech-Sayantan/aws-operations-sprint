@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AWS Operations Sprint</title>
+    <meta name="description" content="A ticket-driven AWS CloudOps practice lab with GitHub Issues, Projects, Terraform, Ansible, and audit evidence.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="AWS Operations Sprint home">
+        <span class="brand-mark">AO</span>
+        <span>AWS Operations Sprint</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="github-platform-components.html">GitHub Platform</a>
+        <a href="CLOUDOPS-TICKET-LIFECYCLE.html">Ticket Lifecycle</a>
+        <a href="https://github.com/Tech-Sayantan/aws-operations-sprint">Repository</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">CloudOps practice lab</p>
+          <h1>Run AWS operations like a real ticket-driven platform team.</h1>
+          <p class="hero-copy">
+            A seven-day lab for access requests, S3, networking, compute, monitoring, audit evidence,
+            Terraform, Ansible, GitHub Projects, and GitHub Actions.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="https://github.com/users/Tech-Sayantan/projects/1">Open Project Board</a>
+            <a class="button secondary" href="https://github.com/Tech-Sayantan/aws-operations-sprint/issues/1">Start Ticket 001</a>
+          </div>
+        </div>
+
+        <div class="ops-console" aria-label="CloudOps workflow visual">
+          <div class="console-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="console-grid">
+            <div class="status-card">
+              <span class="status-label">Queue</span>
+              <strong>3</strong>
+              <span>open ops tickets</span>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Flow</span>
+              <strong>PR</strong>
+              <span>review before change</span>
+            </div>
+            <div class="status-card">
+              <span class="status-label">Proof</span>
+              <strong>Audit</strong>
+              <span>evidence per ticket</span>
+            </div>
+          </div>
+          <svg class="workflow-map" viewBox="0 0 680 230" role="img" aria-label="Request to evidence workflow">
+            <defs>
+              <linearGradient id="opsLine" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#0f8b8d"/>
+                <stop offset="50%" stop-color="#f29f05"/>
+                <stop offset="100%" stop-color="#d1495b"/>
+              </linearGradient>
+            </defs>
+            <path d="M92 118 H588" stroke="url(#opsLine)" stroke-width="8" stroke-linecap="round"/>
+            <g>
+              <circle cx="92" cy="118" r="34"/>
+              <text x="92" y="123">Issue</text>
+            </g>
+            <g>
+              <circle cx="215" cy="118" r="34"/>
+              <text x="215" y="123">Triage</text>
+            </g>
+            <g>
+              <circle cx="340" cy="118" r="34"/>
+              <text x="340" y="123">PR</text>
+            </g>
+            <g>
+              <circle cx="465" cy="118" r="34"/>
+              <text x="465" y="123">Apply</text>
+            </g>
+            <g>
+              <circle cx="588" cy="118" r="34"/>
+              <text x="588" y="123">Proof</text>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Operating model</p>
+          <h2>What this lab simulates</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <h3>Ticket intake</h3>
+            <p>Capture requester, environment, business reason, affected resources, risk, approval, rollback, and verification.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">02</span>
+            <h3>Infrastructure change</h3>
+            <p>Use Terraform for AWS resources and Ansible or SSM for server-level operations.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">03</span>
+            <h3>Review and automation</h3>
+            <p>Move implementation through pull requests, validation checks, and approval gates.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-number">04</span>
+            <h3>Audit evidence</h3>
+            <p>Attach plan summaries, verification notes, CloudTrail references, and rollback instructions.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split">
+        <div>
+          <p class="eyebrow">Seven-day sprint</p>
+          <h2>From ticket flow to interview story</h2>
+          <p>
+            This lab is designed to become speakable experience: not only "I learned AWS", but
+            "I operated AWS changes through a controlled workflow."
+          </p>
+        </div>
+        <div class="timeline">
+          <div><strong>Day 1</strong><span>Ticket flow, approvals, evidence</span></div>
+          <div><strong>Day 2</strong><span>IAM and access management</span></div>
+          <div><strong>Day 3</strong><span>S3, KMS, lifecycle, logging</span></div>
+          <div><strong>Day 4</strong><span>VPC, Security Groups, NACLs</span></div>
+          <div><strong>Day 5</strong><span>EC2, EBS, Ansible or SSM</span></div>
+          <div><strong>Day 6</strong><span>CloudWatch, CloudTrail, Config</span></div>
+          <div><strong>Day 7</strong><span>Demo, rollback, final story</span></div>
+        </div>
+      </section>
+
+      <section class="section resources">
+        <div class="section-heading">
+          <p class="eyebrow">Start points</p>
+          <h2>Open the right artifact</h2>
+        </div>
+        <div class="resource-list">
+          <a href="https://github.com/Tech-Sayantan/aws-operations-sprint/blob/main/syllabus/DAY-1.md">
+            <span>Day 1 Guide</span>
+            <strong>Type-along path for the first CloudOps ticket</strong>
+          </a>
+          <a href="github-platform-components.html">
+            <span>GitHub Platform</span>
+            <strong>How Issues, Projects, PRs, Actions, and Pages fit together</strong>
+          </a>
+          <a href="CLOUDOPS-TICKET-LIFECYCLE.html">
+            <span>Runbook</span>
+            <strong>Ticket lifecycle from request to evidence</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
