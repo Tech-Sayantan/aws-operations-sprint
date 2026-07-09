@@ -17,6 +17,7 @@
         <span>AWS Operations Sprint</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#lab-portfolio">Lab Portfolio</a>
         <a href="github-platform-components.html">GitHub Platform</a>
         <a href="CLOUDOPS-TICKET-LIFECYCLE.html">Ticket Lifecycle</a>
         <a href="https://github.com/Tech-Sayantan/aws-operations-sprint">Repository</a>
@@ -64,9 +65,9 @@
           <svg class="workflow-map" viewBox="0 0 680 230" role="img" aria-label="Request to evidence workflow">
             <defs>
               <linearGradient id="opsLine" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0%" stop-color="#0f8b8d"/>
-                <stop offset="50%" stop-color="#f29f05"/>
-                <stop offset="100%" stop-color="#d1495b"/>
+                <stop offset="0%" stop-color="#1d4ed8"/>
+                <stop offset="50%" stop-color="#0f766e"/>
+                <stop offset="100%" stop-color="#64748b"/>
               </linearGradient>
             </defs>
             <path d="M92 118 H588" stroke="url(#opsLine)" stroke-width="8" stroke-linecap="round"/>
@@ -160,6 +161,34 @@
           <a href="CLOUDOPS-TICKET-LIFECYCLE.html">
             <span>Runbook</span>
             <strong>Ticket lifecycle from request to evidence</strong>
+          </a>
+        </div>
+      </section>
+
+      <section id="lab-portfolio" class="section lab-portfolio">
+        <div class="section-heading">
+          <p class="eyebrow">Public lab portfolio</p>
+          <h2>Three connected practice environments</h2>
+          <p>
+            These labs are meant to be read together: operations workflow, serverless event design,
+            and Kubernetes platform delivery.
+          </p>
+        </div>
+        <div class="lab-grid">
+          <a class="lab-card active" href="https://tech-sayantan.github.io/aws-operations-sprint/">
+            <span>CloudOps</span>
+            <strong>AWS Operations Sprint</strong>
+            <p>Ticketing, Terraform, Ansible, approvals, evidence, and audit flow.</p>
+          </a>
+          <a class="lab-card" href="https://tech-sayantan.github.io/tan-serverless-dojo/">
+            <span>Serverless</span>
+            <strong>Tan Serverless Dojo</strong>
+            <p>Lambda, SNS, SQS, EventBridge, CloudWatch, SAM, and CI/CD.</p>
+          </a>
+          <a class="lab-card" href="https://tech-sayantan.github.io/eks-interview-lab/">
+            <span>Kubernetes</span>
+            <strong>EKS Interview Lab</strong>
+            <p>EKS, Helm, ALB Ingress, Route 53, IRSA, GitHub OIDC, and teardown.</p>
           </a>
         </div>
       </section>
